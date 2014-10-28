@@ -4,7 +4,7 @@ require 'polysize-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "polysize-rails"
-  spec.version       = Polysize::Rails::VERSION
+  spec.version       = PolysizeRails::VERSION
   spec.authors       = ["Douglas Waltman II"]
   spec.email         = ["doug@dougwaltman.com"]
   spec.homepage      = "https://github.com/dw2/polysize-rails"
