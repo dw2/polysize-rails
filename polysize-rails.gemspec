@@ -1,7 +1,6 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'polysize/rails/version'
+$:.push File.expand_path("../lib", __FILE__)
+
+require 'polysize-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "polysize-rails"
